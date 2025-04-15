@@ -36,7 +36,7 @@ def get_date():
                         if 1 <= month <= 12 and 1 <= day <= 31:
 
                             # return the modified date in YYYY-MM-DD format
-                            return f"{year:04d}-{month:02d}-{day:02d}"
+                            return f"{year:04d}-{month:02d}-{day:02d}" # :04d means 4 digits with leading zeros (if the charater is less than 4)
 
             # otherwise check if the format is Month DD, YYYY
             elif "," in date:
