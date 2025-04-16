@@ -6,9 +6,11 @@ This repository contains four Python programs that solve everyday problems with 
 ### **1. outdated.py**
 
 **Description**
+
 outdated.py converts a date entered in MM/DD/YYYY or Month DD, YYYY format into the internationally accepted YYYY-MM-DD format in accordance to [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 
 **Features**
+
     Supports two common date formats.
 
     Standardizes the date into a consistent YYYY-MM-DD format.
@@ -34,9 +36,11 @@ outdated.py converts a date entered in MM/DD/YYYY or Month DD, YYYY format into 
 ### **2. grocery.py**
 
 **Description**
+
 grocery.py allows a user to create a grocery list, tracking how many times each item is entered. Items are sorted alphabetically and displayed in uppercase.
 
 **Features**
+
     Users enter one item per line.
 
     Stops collecting items upon Ctrl+D (EOF).
@@ -62,9 +66,11 @@ grocery.py allows a user to create a grocery list, tracking how many times each 
 ### **3. taqueria.py**
 
 **Description**
-taqueria.py allows users to place an order from Felipe’s Taqueria **[menu](https://www.felipesboston.com/menu)** in ***[Harvard Square](https://en.wikipedia.org/wiki/Harvard_Square)*** and continuously updates the total cost after each item is entered until the user inputs **CTRL+D (or EOF)**
+
+taqueria.py allows users to place an order from Felipe’s Taqueria **[menu](https://www.felipesboston.com/menu)** in ***[Harvard Square](https://en.wikipedia.org/wiki/Harvard_Square)*** and continuously updates the total cost after each item is entered until the user inputs ***CTRL+D (or EOF)***
 
 **Features**
+
     Handles case-insensitive input (e.g., "burrito" and "Burrito" are treated the same).
 
     Ignores invalid menu items.
@@ -90,9 +96,13 @@ taqueria.py allows users to place an order from Felipe’s Taqueria **[menu](htt
 ### **4. fuel.py**
 
 **Description**
+
 fuel.py takes a fraction (X/Y) input representing a fuel gauge and converts it to a percentage. If the percentage is very low or very high, it returns "E" (empty) or "F" (full).
 
 **Features**
+
+    Accepts fractions in the form of X/Y.
+
     Handles division and input errors gracefully.
 
     Converts fraction into a percentage.
